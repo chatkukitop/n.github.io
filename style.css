@@ -1,0 +1,102 @@
+body {
+  color: white;
+}
+
+body i, body h4 {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+img {
+  display: inline-block;
+  border-radius: 20px;
+  width: 60px;
+  height: auto;
+}
+
+.head {
+  height: 70px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #33ccffce), to(#ff99ccdc));
+  background: linear-gradient(to right, #33ccffce 20%, #ff99ccdc 100%);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.chat-texts {
+  overflow: hidden;
+  height: 400px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #33ccff81), to(#ff99cc83));
+  background: linear-gradient(to right, #33ccff81 20%, #ff99cc83 100%);
+  border-radius: 0px 0px 20px 20px;
+  overflow-y: auto;
+}
+
+.selected {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #33ccff81), to(#ff99cc83)) !important;
+  background: linear-gradient(to right, #33ccff81 20%, #ff99cc83 100%) !important;
+  color: #0000008f;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+ul li {
+  position: relative;
+  padding: 20px;
+}
+
+ul li:hover {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #33ccff80), to(#ff99cc80));
+  background: linear-gradient(to right, #33ccff80 20%, #ff99cc80 100%);
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.userp {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #33ccff44), to(#ff99cc60));
+  background: linear-gradient(to right, #33ccff44 20%, #ff99cc60 100%);
+}
+
+.input-box {
+  border-radius: 10px;
+  padding: 10px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #33ccff81), to(#ff99cc7e));
+  background: linear-gradient(to right, #33ccff81 20%, #ff99cc7e 100%);
+}
+
+input {
+  padding-right: 60px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.sendli {
+  font-size: 26px;
+  top: 24%;
+  right: 2%;
+  color: #33ccff;
+}
+
+.footer {
+  top: 36rem;
+  right: 1%;
+  width: 110px;
+  height: 40px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #33ccff), to(#ff99cc));
+  background: linear-gradient(to right, #33ccff 20%, #ff99cc 100%);
+  border-radius: 13px 13px 0px 0px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.footer:hover {
+  color: #636363;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,115 @@
+body{
+    color: white;
+    i,h4{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+       font-size: 18px;
+    }
+}
+
+img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 60px;
+    height: auto;
+  }
+
+.head{
+    height: 70px;
+    background:linear-gradient(to right, #33ccffce 20%, #ff99ccdc 100%);
+    border-radius:  20px 20px 0px 0px ;
+
+}
+.del1{}
+.chat-texts{
+    overflow: hidden;
+    height: 400px;
+    background:linear-gradient(to right, #33ccff81 20%, #ff99cc83 100%);
+    border-radius:  0px 0px 20px 20px ;
+    overflow-y: auto;
+    
+    
+}
+
+.selected{background:linear-gradient(to right, #33ccff81 20%, #ff99cc83 100%)!important;
+color:#0000008f }
+
+
+ul{
+    padding: 0px;
+    list-style-type: none;
+    li{position: relative;
+        padding: 20px;
+        
+        &:hover{
+           
+            background:linear-gradient(to right, #33ccff80 20%, #ff99cc80 100%);
+        }
+        // &:after{
+        //     content: '';
+        //     position:absolute;
+        //     bottom: -2%;
+        //     left: -4%;
+        //     width: 104%;
+        //     height: 1px;
+        //     background-color: rgba(255, 255, 255, 0.096);
+        // }
+    }
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.userp{
+    background:linear-gradient(to right, #33ccff44 20%, #ff99cc60 100%);
+
+
+}
+.input-box{
+    border-radius: 10px;
+    padding: 10px;
+    background:linear-gradient(to right, #33ccff81 20%, #ff99cc7e 100%);
+}
+
+
+input{ 
+    padding-right: 60px!important;
+    box-shadow: none!important;
+}
+
+
+.sendli{
+    font-size: 26px;
+    top: 24%;
+    right: 2%;
+    color: #33ccff
+}
+.footer{
+    
+    top: 36rem;
+    right: 1%;
+    width: 110px;
+    height: 40px;
+    background:linear-gradient(to right, #33ccff 20%, #ff99cc 100%);
+    border-radius:  13px 13px 0px 0px ;
+    transition:  2s;
+    &:hover{color: #636363;
+        
+        // animation-name: example;
+        // animation-duration: 4s;
+    }
+
+}
+
+// @keyframes example {
+//     0%   {background:linear-gradient(to right, #33ccff 20%, #ff99cc 100%);}
+//     25%  {background:linear-gradient(to right, #33ccff 40%, #ff99cc 100%);}
+//     35%  { background:linear-gradient(to right, #33ccff 60%, #ff99cc 100%);}
+//     50% {background:linear-gradient(to right, #33ccff 80%, #ff99cc 100%);}
+//     75%   {background:linear-gradient(to right, #33ccff 60%, #ff99cc 100%);}
+//     85%  {background:linear-gradient(to right, #33ccff 40%, #ff99cc 100%);}
+//     100%  { background:linear-gradient(to right, #33ccff 20%, #ff99cc 100%);}    
+// }
